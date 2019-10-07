@@ -1,0 +1,94 @@
+th, td{
+width: 500px;
+border: 3px solid white;
+
+
+}
+#indx{
+	background-color:#F9C3CA;
+}
+p{
+	font-family: Courier New;
+	font-size: 30px;
+}	
+#header{
+	animation-name:a;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+}
+	@keyframes a{
+	0%{
+	transform: rotate(0deg);
+}
+	75% {
+	transform: rotate(720deg);
+	}
+	to {
+	transform: rotate(720deg);
+	}
+}
+.body{
+	background-color:#5781AB;
+
+}
+.p1{
+   font-family: Fantasy;
+  	font-size: 25px;
+     color: white;
+}
+
+th1, td1{
+  width: 5px;
+  padding: 2 150px;
+}
+
+.p2{
+   font-family: Times New Roman;
+  	font-size: 25px;
+     color: white;
+}
+th2, th2{
+  width: 5px;
+border: 3px dotted white;
+}
+.body2{
+	background-color:#B1DFBD;
+}
+.body3{
+  background-color:#DBB4F5;
+}
+
+.body4{
+    background-color:#87DDBA;
+}
+.p5{
+  font-family: Times New Roman;
+  	font-size: 30px;
+  color: white;
+}
+th3,td3{
+  width: 5px;
+border: 6px double white;
+  padding: 1 20px;
+}
+.p6{
+  font-family: Times New Roman;
+  	font-size: 20px;
+  color: white;
+}
+.p3{
+  font-family: Fantasy;
+  	font-size: 35px;
+  color: white;
+   text-align: left;
+}
+.p4{
+  font-family: Fantasy;
+  	font-size: 20px;
+  color: white;
+}
+a:hover{
+	cursor:grabbing;
+}
+
+
